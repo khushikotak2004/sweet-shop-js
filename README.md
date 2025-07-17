@@ -3,8 +3,15 @@
 Built using JavaScript and Test-Driven Development (TDD) with Jest.
 
 ## Features
-- Add, delete, view sweets
-- Unit tested using Jest
+- Add, delete, and view sweets
+- Search sweets by:
+  - Name (partial match)
+  - Category (exact match)
+  - Price range (min-max)
+- Inventory management:
+  - **Purchase sweets** (reduces stock if available)
+  - **Restock sweets** (increases stock)
+- Fully unit tested using **Jest**
 
 ## Run Tests
 
